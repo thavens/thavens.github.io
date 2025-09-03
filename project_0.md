@@ -1,12 +1,12 @@
 # Project 0
 ## Becoming Friends with Your Camera
 ### Selfie Wrong vs Right
-![Up Close](/IMG_2537.jpg)
-![Far Away](/IMG_2538.jpg)
+<img src="IMG_2537.jpg" alt="Up Close" width="300">
+<img src="IMG_2538.jpg" alt="Far Away" width="300">
 
 ### Architecture Perspective
-![Up Close](/IMG_2546.jpg)
-![Far Away](/IMG_2549.jpg)
+<img src="IMG_2546.jpg" alt="Up Close" width="300">
+<img src="IMG_2549.jpg" alt="Far Away" width="300">
 
 ### Dolly Zoom
-![My Favorite Coffee Mug](/ezgif.com-optimize.gif)
+![My Favorite Coffee Mug](ezgif.com-optimize.gif)
