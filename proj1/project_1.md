@@ -13,19 +13,19 @@ Finally I implemented scaled align where it would align at multiple scales. I ju
 I had some issues with emir photo but the simplest solution was to compare the r and g and g and b channels rather than r and b and g and b channels like the skeleton code gave. Intuition are that the wavelengths are more similar so the images would be slightly more similar. It did solve the problem.
 
 ## Images
-<img src="proj1/outputs/camel.jpg" alt="camel.jpg" width="300">
-<img src="proj1/outputs/church.jpg" alt="church.jpg" width="300">
-<img src="proj1/outputs/city.jpg" alt="city.jpg" width="300">
-<img src="proj1/outputs/emir.jpg" alt="emir.jpg" width="300">
-<img src="proj1/outputs/harvesters.jpg" alt="harvesters.jpg" width="300">
-<img src="proj1/outputs/icon.jpg" alt="icon.jpg" width="300">
-<img src="proj1/outputs/italil.jpg" alt="italil.jpg" width="300">
-<img src="proj1/outputs/lastochikino.jpg" alt="lastochikino.jpg" width="300">
-<img src="proj1/outputs/lugano.jpg" alt="lugano.jpg" width="300">
-<img src="proj1/outputs/melons.jpg" alt="melons.jpg" width="300">
-<img src="proj1/outputs/self_portrait.jpg" alt="self_portrait.jpg" width="300">
-<img src="proj1/outputs/siren.jpg" alt="siren.jpg" width="300">
-<img src="proj1/outputs/three_generations.jpg" alt="three_generations.jpg" width="300">
+<img src="outputs/camel.jpg" alt="camel.jpg" width="300">
+<img src="outputs/church.jpg" alt="church.jpg" width="300">
+<img src="outputs/city.jpg" alt="city.jpg" width="300">
+<img src="outputs/emir.jpg" alt="emir.jpg" width="300">
+<img src="outputs/harvesters.jpg" alt="harvesters.jpg" width="300">
+<img src="outputs/icon.jpg" alt="icon.jpg" width="300">
+<img src="outputs/italil.jpg" alt="italil.jpg" width="300">
+<img src="outputs/lastochikino.jpg" alt="lastochikino.jpg" width="300">
+<img src="outputs/lugano.jpg" alt="lugano.jpg" width="300">
+<img src="outputs/melons.jpg" alt="melons.jpg" width="300">
+<img src="outputs/self_portrait.jpg" alt="self_portrait.jpg" width="300">
+<img src="outputs/siren.jpg" alt="siren.jpg" width="300">
+<img src="outputs/three_generations.jpg" alt="three_generations.jpg" width="300">
 
 ## Calculated Offsets
 Image camel.jpg: {"red_shift": {"y_shift": 0, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 0, "x_shift": -1}}
