@@ -29,15 +29,27 @@ I had some issues with emir photo but the simplest solution was to compare the r
 
 ## Calculated Offsets
 Image camel.jpg: {"red_shift": {"y_shift": 0, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 0, "x_shift": -1}}
+
 Image church.jpg: {"red_shift": {"y_shift": -1, "x_shift": 0}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": -1, "x_shift": 0}}
+
 Image city.jpg: {"red_shift": {"y_shift": -1, "x_shift": 0}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 0, "x_shift": 1}}
+
 Image emir.jpg: {"red_shift": {"y_shift": 1, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": -1, "x_shift": 0}}
+
 Image harvesters.jpg: {"red_shift": {"y_shift": 1, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 0, "x_shift": -1}}
+
 Image icon.jpg: {"red_shift": {"y_shift": 0, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": -1, "x_shift": -1}}
+
 Image italil.jpg: {"red_shift": {"y_shift": 1, "x_shift": 1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 0, "x_shift": 1}}
+
 Image lastochikino.jpg: {"red_shift": {"y_shift": 0, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 1, "x_shift": 0}}
+
 Image lugano.jpg: {"red_shift": {"y_shift": 0, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": -1, "x_shift": 0}}
+
 Image melons.jpg: {"red_shift": {"y_shift": 0, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 0, "x_shift": -1}}
+
 Image self_portrait.jpg: {"red_shift": {"y_shift": 0, "x_shift": 0}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": -1, "x_shift": -1}}
+
 Image siren.jpg: {"red_shift": {"y_shift": 1, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 1, "x_shift": 0}}
+
 Image three_generations.jpg: {"red_shift": {"y_shift": 1, "x_shift": -1}, "green_shift": {"y_shift": 0, "x_shift": 0}, "blue_shift": {"y_shift": 0, "x_shift": 0}}
