@@ -1,0 +1,12 @@
+[project]
+name = "thavens-github-io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.6",
+    "opencv-python>=4.12.0.88",
+    "scikit-image>=0.25.2",
+]
