@@ -176,7 +176,7 @@ Next, we generate the photo alignment using the eyes as the keypoints to match t
 
 <div class="image-container">
     <img src="hybrid_python/DerekPicture_aligned.jpg" width=400>
-    <img src="hybrid_python/nutmeg_aligned.jpg", width=400>
+    <img src="hybrid_python/nutmeg_aligned.jpg" width=400>
 </div>
 
 After taking the aligned images and cropping them to reasonable size we apply a sweep over the frequency cutoff space. We opt to average the image as 20% low frequency and 80% high frequency.
