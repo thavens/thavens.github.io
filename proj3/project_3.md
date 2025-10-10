@@ -1,3 +1,9 @@
+
+<!-- MathJax -->
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 # Shooting photos and correspondences
 Here are two sets of photos with their corresponding points marked. 
 I used https://cal-cs180.github.io/fa23/hw/proj3/tool.html to mark the points for the transform.
@@ -133,9 +139,13 @@ Here are 2 mosaics I was able to make from Anchor House.
 <img src="oakland_mosaic_unmerged.jpg" alt="oakland mosaic unmerged" width="400"/>
 <img src="oakland_mosaic.jpg" alt="oakland mosaic" width="400"/>
 
+---
+
 <img src="sf_correspondences.jpg" alt="sf correspondences" width="400"/>
 <img src="sf_mosaic_unmerged.jpg" alt="sf mosaic unmerged" width="400"/>
 <img src="sf_mosaic.jpg" alt="sf mosaic" width="400"/>
+
+---
 
 <img src="anchor_correspondences.jpg" alt="anchor correspondences" width="400"/>
 <img src="anchor_mosaic_unmerged.jpg" alt="anchor mosaic unmerged" width="400"/>
@@ -147,13 +157,20 @@ In order to prevent edge artifacts when blending the two images, I used weighted
 
 Here are masks for the image in anchor as an example:
 We start with the base mask, which is the mask of the top image and the background image combined.
+
 <img src="base_mask.jpg" alt="base mask" width="400"/>
+
 Next we compute the distance transform of the base mask.
+
 <img src="bw_dist.jpg" alt="bw dist" width="400"/>
+
 Next we compute the intersection mask of the two images.
+
 <img src="negative_mask.jpg" alt="negative mask" width="400"/>
+
 Finally we compute the full mask, which is the base mask with the bw_dist based mask applied to the overlapping region.
 The overlapping region has the weight computed by the distance transform.
+
 <img src="full_mask.jpg" alt="full mask" width="400"/>
 
 This update function gets pretty messy since the masks are computed on the full canvas, but the images are only on their respective bounding boxes. So I have to index into the correct parts of the masks to get the right values.
