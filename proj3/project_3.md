@@ -238,14 +238,14 @@ Applying RANSAC really helps us to eleiminate all remaining outliers when we att
 
 <img src="matches_ransac.jpg" alt="matches ransac" width="400"/>
 
-On the left is the manual correspondence mosaic, and on the right is the autostitched mosaic.
+On the left is the manual correspondence mosaic, and on the right is the autostitched mosaic. These are created simply from running the auto stitching pipeline and plugging those points into the mosaic merge function from part A.
 
 <div class="image-container">
   <img src="oakland_mosaic.jpg" width="400"/>
   <img src="oakland_auto_mosaic.jpg" width="400"/>
 </div>
 
-On the left is the manual correspondence mosaic, and on the right is the autostitched mosaic.
+On the left is the manual correspondence mosaic from part A, and on the right is the autostitched mosaic.
 
 <div class="image-container">
   <img src="sf_mosaic.jpg" width="400"/>
@@ -253,4 +253,5 @@ On the left is the manual correspondence mosaic, and on the right is the autosti
 </div>
 
 Finally here is a mosaic of the campinelle.
+
 <img src="camp_auto_mosaic.jpg" width="400"/>
