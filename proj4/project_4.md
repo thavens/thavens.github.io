@@ -45,7 +45,7 @@ Here are the follow training runs to recreate the fox along with a run for learn
   <img src="final_images/fox_final.jpg" width="300"/>
 </div>
 
-<div class"image-container">
+<div class="image-container">
   <img src="final_images/fox_mse.jpg" width="300"/>
   <img src="final_images/fox_psnr.jpg" width="300"/>
 </div>
@@ -61,7 +61,7 @@ Here is the training run for the image in my dataset. This character in the imag
 </div>
 
 
-<div class"image-container">
+<div class="image-container">
   <img src="final_images/nagi_mse.jpg" width="300"/>
   <img src="final_images/nagi_psnr.jpg" width="300"/>
 </div>
